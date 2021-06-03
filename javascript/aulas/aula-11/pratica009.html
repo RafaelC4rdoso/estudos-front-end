@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionality</title>
+</head>
+<body>
+    <h1>What country do you live?</h1>
+    <input type="text" name="country" id="country">
+    <input type="button" value="Submit" id="btSubmit" onclick="mouseClicked()">
+    <div id="res"></div>
+    
+    <script>
+        function mouseClicked(){
+            var res = document.getElementById('res')
+            var country = document.getElementById('country')
+            if (country.value.toUpperCase() == 'BRASIL'){
+                res.innerHTML = "<p>You're brasilian</p>"
+            } else {
+                res.innerHTML = "<p>You're an imigrant</p>"
+            }
+        }
+    </script>
+</body>
+</html>

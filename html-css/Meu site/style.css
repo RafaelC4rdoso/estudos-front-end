@@ -1,0 +1,10 @@
+footer{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+aside{
+    position: relative;
+    display: -ms-flexbox;
+}
